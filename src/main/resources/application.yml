@@ -8,7 +8,7 @@ spring:
 
 mybatis:
   mapper-locations: classpath*:/mybatis/mapper/*.xml
-  type-aliases-package: com.example.sample.model
+  type-aliases-package: com.dama.damaService.domain.entity
   configuration:
     map-underscore-to-camel-case: true
     default-fetch-size: 100
